@@ -41,4 +41,5 @@ end
 def sum_array(array)
   n = 0
   array.collect {|i| n += i}
+  n
 end
